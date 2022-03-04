@@ -80,6 +80,5 @@ This program has some arguments involved, in general the syntax for running the 
 Look at the table below for the options:
 | Part    | 1 | 2 |
 | :--- | --- | --- |
-| Options | The user can choose the number of threads by running `java -jar Minotaur.jar 1 [number of threads]`. This is purely optional, by default however, the number of threads is 8. | For part two there are two options, the number of threads and the runtime. To denote the number of threads, use `-t [number of threads]`, 
-again, by default, the number of threads is 8. To choose the run time, use `-r [runtime in seconds]`, this only supports integer
-value of seconds. |
+| Options | The user can choose the number of threads by running `java -jar Minotaur.jar 1 [number of threads]`. This is purely optional, by default however, the number of threads is 8. | For part two there are two options, the number of threads and the runtime. To denote the number of threads, use `-t [number of threads]`, again, by default, the number of threads is 8. To choose the run time, use `-r [runtime in seconds]`, this only supports integer value of seconds. |
+| Examples | `java -jar Minotaur.jar 1 2` | `java -jar Minotaur.jar -t 2 -r 2` |
