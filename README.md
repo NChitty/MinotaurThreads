@@ -64,15 +64,9 @@ If you are on Windows you can clone this repo with:
 
 ```git clone https://github.com/NChitty/MinotaurThreads.git```
 
-Once this is done, just run the `compile.bat` file in the `build` directory, then move on to running the program.
+Once this is done, just run the `compile.bat` file in the home directory, then move on to running the program.
 
-If you are on Linux or Mac, navigate to the `src` directory and run the following commands:
-
-```
-javac -d ./build Main.java
-cd ./build
-jar -cvfm Minotaur.jar manifest.txt *.class
-```
+If you are on Linux or Mac, you can use `compile.sh` instead.
 
 This program has some arguments involved, in general the syntax for running the program is 
 `java -jar Minotaur.jar [part] [options]`.
